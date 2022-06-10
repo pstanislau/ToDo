@@ -2062,9 +2062,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tomac\\Desktop\\ITERIS\\Decola\\Quinta Semana\\ToDo\\ToDo\\ToDo\\ToDo.csproj",
-      "projectName": "ToDo",
-      "projectPath": "C:\\Users\\tomac\\Desktop\\ITERIS\\Decola\\Quinta Semana\\ToDo\\ToDo\\ToDo\\ToDo.csproj",
+      "projectUniqueName": "C:\\Users\\tomac\\Desktop\\ITERIS\\Decola\\Quinta Semana\\ToDo\\ToDo\\ToDo\\Desafio.csproj",
+      "projectName": "Desafio",
+      "projectPath": "C:\\Users\\tomac\\Desktop\\ITERIS\\Decola\\Quinta Semana\\ToDo\\ToDo\\ToDo\\Desafio.csproj",
       "packagesPath": "C:\\Users\\tomac\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\tomac\\Desktop\\ITERIS\\Decola\\Quinta Semana\\ToDo\\ToDo\\ToDo\\obj\\",
       "projectStyle": "PackageReference",
