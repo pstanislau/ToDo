@@ -1,4 +1,5 @@
 using Desafio.DAL;
+using Desafio.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,7 +10,7 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
+builder.Services.AddTransient<TarefasService>();
 
 string connectionString = "Server=.\\SQLExpress;Database=ToDo;Trusted_Connection=True;";
 // se não estiver usando o SQLExpress tente

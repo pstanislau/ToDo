@@ -10,7 +10,7 @@ namespace Desafio.DAL
        : base(options)
         {
         }
-        public virtual DbSet<Tarefa> Lista { get; set; }
+        public virtual DbSet<Tarefa> Tarefas { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Tarefa>(entity =>
