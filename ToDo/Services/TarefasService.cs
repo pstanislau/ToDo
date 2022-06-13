@@ -15,6 +15,11 @@ namespace Desafio.Services
         }
         public ServiceResponse<Tarefa> CadastrarNova(TarefaCreateRequest model)
         {
+            if (model.Prioridade>5 || model.Prioridade<0)
+            {
+                return new ServiceResponse<Tarefa>("A prioridade deve estar no range 0 a 5 para criação");
+            }
+
             if (model.Prioridade == 0)
             {
                 model.Prioridade = 5;

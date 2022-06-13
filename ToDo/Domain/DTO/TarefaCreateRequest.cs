@@ -8,5 +8,6 @@ public class TarefaCreateRequest
     public string Nome { get; set; }
     public string Descricao { get; set; }
     public bool Status { get; set; }
+    [Range(0, 5, ErrorMessage = "A prioridade deve estar no range 0 a 5 para criação")]
     public int Prioridade { get; set; }
 }
